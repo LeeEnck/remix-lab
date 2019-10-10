@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+
+.logo {
+  max-width: 100%;
+  max-height: 60px;
+}
+
+.navbar {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 22px;
+  color: #919191;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.links {
+  width:50px;
+}
+
+.sponsors {
+  width: 200px;
+}
