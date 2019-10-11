@@ -12,7 +12,7 @@ html {
 
 .body {
   Background-color: yellow;
-  
+
 
 .logo {
   max-width: 100%;
@@ -36,6 +36,7 @@ html {
 .container {
   background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
   color: white;
+  background-size: cover;
 }
 
 h1 {
@@ -113,5 +114,3 @@ div img.sponsors {
 p {
   padding: 20px;
 }
-
-
