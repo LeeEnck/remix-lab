@@ -84,18 +84,21 @@ div img.sponsors {
 }
 
 .connects {
+  color: white;
   display: flex;
   padding: 20px;
-  background: grey;
+  background-color: grey;
 }
 
 .footer {
+  color: white;
   display: flex;
   padding: 20px;
-  background: grey;
+  background-color: grey;
 }
 
 .code {
+  color: white;
   display: flex;
   padding: 20px;
   background: grey;
