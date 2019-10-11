@@ -29,17 +29,19 @@ html {
 }
 
 .container {
-  background-image: url('https://cposc.org/wpp-content/uploads/2018/02/homepage-hero.jpg');
-  background-repeat: no-repeat;
+  background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
+  color: white;
 }
 
 h1 {
   display: flex;
+  font-size: 40px;
   justify-content: center;
 }
 
 .subtitle {
   display:flex;
+  font-size: 28px;
   justify-content: center;
 }
 
@@ -67,7 +69,10 @@ h2 {
 }
 
 .connect {
+  color: white;
   display: flex;
+  background-color: lightblue;
+  margin: 30px;
 }
 
 .links {
