@@ -30,6 +30,7 @@ html {
 
 .container {
   background-image: url('https://cposc.org/wp-content/uploads/2018/02/homepage-hero.jpg');
+  background-size: cover;
   color: white;
 }
 
