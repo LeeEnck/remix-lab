@@ -20,7 +20,6 @@ html {
 }
 
 .navbar {
-  display: flex;
   float: right;
   justify-content: space-around;
 }
