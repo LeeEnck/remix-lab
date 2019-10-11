@@ -10,21 +10,37 @@ html {
   font-size: 18px;
 }
 
-
 .logo {
   max-width: 100%;
   max-height: 60px;
 }
 
+.nav{
+  display: flex;
+}
+
 .navbar {
   display: flex;
   float: right;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-h3 {
-  font-size: 22px;
-  color: #919191;
+.navbar:hover {
+  background-color: blue;
+}
+
+h2 {
+  display:flex;
+}
+
+.when {
+  display: flex;
+
+}
+
+.where {
+  display: flex;
+
 }
 
 .row {
@@ -33,11 +49,27 @@ h3 {
   justify-content: space-between;
 }
 
+.first.box {
+
+}
+
+.second.box {
+
+}
+
+.third.box {
+
+}
 
 .links {
   width:50px;
 }
 
-.sponsors {
+div img.sponsors {
   width: 200px;
+
+}
+
+.footer {
+  background-color: blue;
 }
