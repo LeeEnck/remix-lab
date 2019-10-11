@@ -26,35 +26,41 @@ html {
 }
 
 .navbar:hover {
-  background-color: blue;
+  background-color: grey;
 }
 
 h2 {
-  display:flex;
-
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .when {
+  float: right;
+  padding: 20px;
 }
 
 .where {
+  float: right;
+  padding-left: 20px;
 }
 
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 20px;
 }
 
-.first.box {
-
-}
-
-.second.box {
+div.first.box {
 
 }
 
-.third.box {
+div.second.box {
+
+}
+
+div.third.box {
 
 }
 
@@ -64,9 +70,8 @@ h2 {
 
 div img.sponsors {
   width: 200px;
-
 }
 
 .footer {
-  background-color: blue;
+  display: flex;
 }
