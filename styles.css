@@ -29,6 +29,21 @@ html {
   background-color: grey;
 }
 
+.container {
+  background-image: url('https://cposc.org/wpp-content/uploads/2018/02/homepage-hero.jpg');
+  background-repeat: no-repeat;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle {
+  display:flex;
+  justify-content: center;
+}
+
 h2 {
   display: flex;
   justify-content: center;
@@ -52,16 +67,8 @@ h2 {
   margin: 20px;
 }
 
-div.first.box {
-
-}
-
-div.second.box {
-
-}
-
-div.third.box {
-
+.connect {
+  display: flex;
 }
 
 .links {
@@ -72,6 +79,25 @@ div img.sponsors {
   width: 200px;
 }
 
+.connects {
+  display: flex;
+  padding: 20px;
+  background: grey;
+}
+
 .footer {
   display: flex;
+  padding: 20px;
+  background: grey;
+}
+
+.code {
+  display: flex;
+  padding: 20px;
+  background: grey;
+  padding: 20px;
+}
+
+p {
+  padding: 20px;
 }
